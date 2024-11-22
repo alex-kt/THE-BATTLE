@@ -1,0 +1,71 @@
+body {
+  background-image: url(img/Game\ img.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#battleground {
+  display: flex;
+  gap: 50px;
+}
+
+#player,
+#enemy {
+  flex: 1;
+}
+
+.life-bar {
+  height: 30px;
+  border: solid 1px black;
+}
+
+.playerlife, .enemylife {
+  background-color: rgb(0, 255, 0);
+  height: 100%;
+  width: 1%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border: solid 2px black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(0, 100%, 60%);
+}
+
+button:active {
+  background-color: hsl(0, 100%, 70%);;
+}
+
+#log {
+  height: 300px;
+  border: solid 1px black;
+  overflow-y: scroll;
+  margin-top: 17%;
+}
+
+#player-name,
+#enemy-name {
+  color: white;
+  font-size: 40px;
+  background-color: black;
+  padding: 0px 50px;
+}
+
+ul {
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.53);
+  color: white;
+  list-style: none
+}
+
+li {
+  height: 50px;
+}

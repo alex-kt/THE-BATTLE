@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Battle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio autoplay loop>
+      <source src="music/battleSong.mp3" type="audio/mp3" />
+    </audio>
+    <div id="battleground">
+      <div id="player">
+        <div class="life-bar">
+          <div class="playerlife"></div>
+        </div>
+        <strong id="player-name">--</strong>
+        <div>
+          <button class="atackButton">Atack</button>
+        </div>
+      </div>
+      <div id="enemy">
+        <div class="life-bar">
+          <div class="enemylife"></div>
+        </div>
+        <strong id="enemy-name">--</strong>
+        <div>
+          <button class="atackButton">Atack</button>
+        </div>
+      </div>
+    </div>
+    <ul id="log"></ul>
+
+    <script src="js/function2.js"></script>
+    <script src="js/functionScript2.js"></script>
+  </body>
+</html>
